@@ -20,21 +20,4 @@ public class Schedule {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
     private String password;  // 비밀번호 필드 추가
-
-    // Getter 및 Setter
-    public Long getAuthorId() {
-        return authorId;
-    }
-
-    public void setAuthorId(Long authorId) {
-        this.authorId = authorId;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }
